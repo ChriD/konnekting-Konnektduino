@@ -1,0 +1,16 @@
+https://forum.arduino.cc/index.php?topic=416004.0
+
+https://github.com/AtmelUniversityFrance/atmel-samd21-xpro-boardmanagermodule
+
+https://forum.arduino.cc/index.php?topic=409715.15
+
+
+samd21j18a		4€
+
+
+
+STM32F030R8		1,79
+F303RE			6,11€
+STM32F030R8		6,13€
+STM32L476RG		9,60€
+STM32L476RE		6,77
