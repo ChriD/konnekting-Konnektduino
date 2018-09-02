@@ -1,3 +1,14 @@
+http://www.onsemi.com/pub/Collateral/NCN5120-D.PDF
+
+https://www.mouser.at/Semiconductors/Discrete-Semiconductors/Diodes-Rectifiers/Schottky-Diodes-Rectifiers/_/N-ax1mj?P=1yzvlv6
+
+---------------------
+
+https://github.com/KONNEKTING/KonnektingHardware/blob/master/MicroBCU/R1.2/Schematic_1.2.pdf
+
+
+-----------------------
+
 https://forum.arduino.cc/index.php?topic=416004.0
 
 https://github.com/AtmelUniversityFrance/atmel-samd21-xpro-boardmanagermodule
@@ -9,7 +20,6 @@ samd21j18a		4€
 
 
 
-STM32F030R8		1,79
 F303RE			6,11€
 STM32F030R8		6,13€
 STM32L476RG		9,60€

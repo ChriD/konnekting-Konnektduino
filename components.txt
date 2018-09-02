@@ -1,0 +1,37 @@
+1	SAMD			QFN				ATMEL		ATSAMD21G18A-AU			2,80€		2,80€
+1	VR3V3			SOT95				TI		TPS70933DBVT			1,20€		1,50€
+2	VD1,VD2			603		200mA/40V	AVX		SD0603S040S0R2			0,40€		0,80€		/ CDBU0130L 
+2	C1,CC1			603		1uF		AVX		0603YC105MAT2A			0,23€		0,26€
+1	C2			603		2.2uF		AVX		0603ZD225MAT2A			0,71€		0,71€
+2	CL01,CL02		603		15pF		AVX		06033A150JAT2A			0,11€		0,22€
+1	CR1			603		100pF		AVX		0603ZC101KAT2A			0,26€		0,26€	
+4	CS1,CS2,CS3,CS4		603		100nF		AVX		06033C104K4T2A			0,16€		0,84€
+1	OSC32			ABS07		32.768KHz	ABS		ABS07-32.768KHZ-7-T		0,60€		0,60€
+1	RR2			603		330		ROHM		ESR03EZPJ331			0,09€		0,09€
+1	R1			603		1k		ROHM		ESR03EZPJ102			0,09€		0,09€
+1	RR1			603		2.2k		ROHM		ESR03EZPJ222			0,09€		0,09€
+2	RI1,RI1			603		4.7k		ROHM		ESR03EZPJ472			0,09€		0,18€
+
+1	USBCON			MicroUSB			Molex		0475890001			0,60€		0,60€
+37	PINHEADERS		round 2,57mm	Swiss female socket header					1,00€		1,00€
+		
+
+
+9,15€ ohne pinheader (bei digikey) -->  ~11€ components
+
+
+13 /  20
+
+Board with shipping 	each piece(10)		with Asembly		each piece(25)		with assembly		stencil
+OSHPARK			3,04$						
+PCBGOGO			4,30$			10,40$			1,96$			4,40$
+PCBWAY			3,80$			10,60$			1,76$			7,25$
+SeedStudio		3,20$ (versand?)				1,75$ (versand?)
+elecrow			4,04$						1,41$
+Aisler.net		3,46€						3,46€						8,30€	
+	
+
+
+
+https://www.oshstencils.com/#
+
