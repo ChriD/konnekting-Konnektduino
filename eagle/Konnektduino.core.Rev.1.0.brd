@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -181,8 +181,8 @@
 <text x="3.81" y="4.064" size="0.8128" layer="26" rot="MR0" align="bottom-right">+3V3</text>
 <text x="30.48" y="1.524" size="0.8128" layer="26" rot="MR0">GND</text>
 <text x="30.48" y="4.064" size="0.8128" layer="26" rot="MR0">NC</text>
-<text x="3.81" y="6.604" size="0.8128" layer="26" rot="MR0" align="bottom-right">PA23</text>
-<text x="3.81" y="9.144" size="0.8128" layer="26" rot="MR0" align="bottom-right">PA22</text>
+<text x="3.81" y="6.604" size="0.8128" layer="26" rot="MR0" align="bottom-right">(SCL) PA23</text>
+<text x="3.81" y="9.144" size="0.8128" layer="26" rot="MR0" align="bottom-right">(SDA) PA22</text>
 <text x="3.81" y="11.684" size="0.8128" layer="26" rot="MR0" align="bottom-right">PA21</text>
 <text x="3.81" y="14.224" size="0.8128" layer="26" rot="MR0" align="bottom-right">PA20</text>
 <text x="3.81" y="16.764" size="0.8128" layer="26" rot="MR0" align="bottom-right">PA19</text>
@@ -204,10 +204,12 @@
 <text x="27.94" y="14.224" size="0.8128" layer="25" align="bottom-right">NRST</text>
 <text x="27.94" y="11.684" size="0.8128" layer="25" align="bottom-right">GND</text>
 <text x="3.81" y="29.464" size="0.8128" layer="26" rot="MR0" align="bottom-right">PA14</text>
-<text x="11.049" y="30.099" size="0.6096" layer="26" rot="MR0" align="bottom-right">PA11</text>
+<text x="11.049" y="29.21" size="0.6096" layer="26" rot="MR0" align="bottom-right">PA11
+(RX)</text>
 <text x="30.48" y="29.464" size="0.8128" layer="26" rot="MR0">PB08</text>
 <text x="8.509" y="30.099" size="0.6096" layer="26" rot="MR0" align="bottom-right">PB10</text>
-<text x="13.589" y="30.099" size="0.6096" layer="26" rot="MR0" align="bottom-right">PA10</text>
+<text x="13.589" y="29.21" size="0.6096" layer="26" rot="MR0" align="bottom-right">PA10
+(TX)</text>
 <text x="16.129" y="30.099" size="0.6096" layer="26" rot="MR0" align="bottom-right">PA09</text>
 <text x="18.669" y="30.099" size="0.6096" layer="26" rot="MR0" align="bottom-right">PA08</text>
 <text x="21.209" y="30.099" size="0.6096" layer="26" rot="MR0" align="bottom-right">PA07</text>
@@ -218,6 +220,11 @@
 <text x="8.509" y="28.829" size="0.6096" layer="26" rot="MR0" align="bottom-right">PB11</text>
 <text x="8.509" y="27.559" size="0.6096" layer="26" rot="MR0" align="bottom-right">PA12</text>
 <text x="8.509" y="26.289" size="0.6096" layer="26" rot="MR0" align="bottom-right">PA13</text>
+<text x="13.589" y="16.383" size="1.016" layer="26" rot="MR0" align="center">Konnektduino
+CORE
+Rev 1.0
+0xCDDC
+</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -3445,13 +3452,14 @@ design rules under a new name.</description>
 <contactref element="SAMD" pad="38"/>
 <via x="32.385" y="12.065" extent="1-16" drill="1.4"/>
 <via x="15.24" y="13.97" extent="1-16" drill="0.35"/>
-<wire x1="13.470728125" y1="17.002290625" x2="13.470728125" y2="16.830603125" width="0.1524" layer="1"/>
-<wire x1="13.470728125" y1="16.830603125" x2="13.973325" y2="16.32800625" width="0.1524" layer="1"/>
-<wire x1="13.973325" y1="15.236675" x2="15.24" y2="13.97" width="0.1524" layer="1"/>
-<wire x1="13.973325" y1="16.32800625" x2="13.973325" y2="15.236675" width="0.1524" layer="1"/>
+<wire x1="13.470728125" y1="17.002290625" x2="13.470728125" y2="16.891" width="0.1524" layer="1"/>
+<wire x1="15.24" y1="13.97" x2="13.973325" y2="15.236675" width="0.1524" layer="1"/>
 <wire x1="15.748" y1="13.462" x2="30.988" y2="13.462" width="0.1524" layer="16"/>
 <wire x1="30.988" y1="13.462" x2="32.385" y2="12.065" width="0.1524" layer="16"/>
 <wire x1="15.24" y1="13.97" x2="15.748" y2="13.462" width="0.1524" layer="16"/>
+<wire x1="13.973325" y1="15.236675" x2="13.973325" y2="16.506675" width="0.1524" layer="1"/>
+<wire x1="13.589" y1="16.891" x2="13.470728125" y2="16.891" width="0.1524" layer="1"/>
+<wire x1="13.973325" y1="16.506675" x2="13.589" y2="16.891" width="0.1524" layer="1"/>
 </signal>
 <signal name="PB22">
 <contactref element="SAMD" pad="37"/>
@@ -3480,6 +3488,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
